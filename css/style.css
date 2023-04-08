@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,600;1,500;1,600&family=Lato:ital,wght@0,400;1,100;1,300&family=Montserrat:ital,wght@0,300;0,400;1,200;1,300&family=Roboto:ital,wght@0,400;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;1,200&family=Ubuntu+Mono:ital,wght@1,400;1,700&family=Ubuntu:ital,wght@0,700;1,700&display=swap');
+
+:root{
+        --karla: 'Karla', sans-serif;
+        --lato: 'Lato', sans-serif;
+        --monster: 'Montserrat', sans-serif;
+        --roboto: 'Roboto', sans-serif;
+        --sanspro: 'Source Sans Pro', sans-serif;
+        --ubuntu: 'Ubuntu', sans-serif;
+        --mono: 'Ubuntu Mono', monospace;
+}
+
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+     }
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .header{
+        width: 100%;
+        height: 100vh;
+        background-image: url(/img/banner2.jpg);
+        background-size: cover;
+    }
+    .container{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .navigation{
+        width: 100%;
+        padding: 2rem 2rem;
+        margin-bottom: 5rem;
+    }
+    .nav__bar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav__logo h2{
+        font-size: 2rem;
+        font-family: sans-serif;
+        color: white;
+    }
+    .hom a{
+        padding-right: 25px;
+        padding-left: 25px;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 1rem;
+        color: black;
+    }
+    .hom a:hover{
+        color: white;
+        transition: 0.5s;
+    }
+    .header__item{
+        width: 100%;
+        padding: 2rem 0;
+    }
+    .header__item h1{
+        font-size: 4rem;
+        color: black;
+        font-family: sans-serif;
+        margin-bottom: 2rem;
+    }
+    .header__item span{
+        color: red;
+    }
+    .header__item p{
+        color: dimgray;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .header__item button{
+        padding: 1rem 4rem;
+        border: none;
+        border-radius: 50px;
+        background-color: dimgray;
+    }
+    .header__item a{
+        text-decoration: none;
+        color: white;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        font-size: 1.5rem;
+    }
+    .our{
+        width: 100%;
+        padding: 4.8rem 0;
+        background-image: url(/img/plan_bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .title{
+        text-align: center;
+    }
+    .title h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .title p{
+        width: 60%;
+        margin: 0 auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .our__img__content{
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .flower__content{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 3rem;
+        height: 200px;
+    }
+    .flower__item{
+        width: 100%;
+        background-color: #F8D98F;
+        text-align: center;
+    }
+    .flower__item h2{
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+    .flower__item p{
+        color: #fff;
+        font-size: 1rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .flower__item button{
+        padding: 0.7rem 2rem;
+        border: 0;
+        outline: 0; 
+        margin-top: 3rem;
+        background-color: black;
+        color: #fff;
+        transition: all 0.8s linear;
+    }
+    .flower__item button:hover{
+        background-color: red;
+        color: black;
+    }
+    .bridesmaids{
+        width: 100%;
+        padding: 4.8rem 0;
+    }
+    .girls__content{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 3rem;
+    }
+    .girls__item{
+        margin-top: 4rem;
+    }
+    .girls__item h3{
+        color: blue;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .says{
+        width: 100%;
+        padding: 4.8rem 0;
+    } 
+    .img__img{
+        text-align: center;
+        margin-top: 7rem;
+    }
+    .img__img h2{
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+        font-family: var(--ubuntu);
+    }
+    .img__img p{
+        font-family: var(--ubuntu);
+        font-size: 1rem;
+    }
